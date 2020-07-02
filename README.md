@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# yalescheme
 
-You can use the [editor on GitHub](https://github.com/aarondwolf/yalescheme/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Quick Start Guide
 
-### Markdown
+The Yale Stata scheme provides a quick set of options for modern-looking graphs from Stata using Yale colors. The scheme is intended for use by the Yale Economic Growth Center's Research Team when designing visualization for presentations and social media.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation
 
-```markdown
-Syntax highlighted code block
+The scheme is not currently ready for installation. When it is, a package file will be uploaded to the Github repository to allow downloads via the *net install* command.
 
-# Header 1
-## Header 2
-### Header 3
+## Attribution
 
-- Bulleted
-- List
+The Yale scheme was written by Aaron Wolf. Bugs can be reported via the repository at Github (https://github.com/aarondwolf/scheme-yale). Questions can be directed to aaron [dot] wolf [at] yale [dot] edu. 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aarondwolf/yalescheme/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This scheme used the user-written scheme *cleanplots* as a base, with alterations made to reflect Yale's colors and stylistic preferences. *cleanplots* was created by Trenton Mize, and documentation can be found at https://www.trentonmize.com/software/cleanplots. *cleanplots* was itself influenced by Daniel Bischof's very excellent *plotplain* scheme, documentation for which can be found at https://www.stata-journal.com/article.html?article=gr0070. 

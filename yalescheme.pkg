@@ -1,0 +1,21 @@
+v 0.1
+d yalescheme.  A modern Stata scheme for Yale University-
+d branded data visualizations.
+d Created by Aaron Wolf (aaron.wolf@yale.edu)
+d
+d Note: Yale scheme provides the following new colors for 
+d use in Stata graphs (see https://yaleidentity.yale.edu./web):
+d   yblue, yltblue, yvltblue, yorange, ygreen, 
+d   ygs1, ygs2, ygs3, ygs4, ygs5
+
+F scheme-yale.scheme
+F colors/color-yblue.style
+F colors/color-yltblue.style
+F colors/color-yvltblue.style
+F colors/color-yorange.style
+F colors/color-ygreen.style
+F colors/color-ygs1.style
+F colors/color-ygs2.style
+F colors/color-ygs3.style
+F colors/color-ygs4.style
+F colors/color-ygs5.style

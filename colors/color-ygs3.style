@@ -1,0 +1,6 @@
+*! version 1.0.1  24jun2020
+sequence 958
+* label "YGS3"
+label resource "COLOR-YGS3"
+
+set rgb "151 141 133"

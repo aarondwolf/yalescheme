@@ -1,0 +1,7 @@
+v 0.1
+d Created by Aaron Wolf (aaron.wolf@yale.edu)
+
+d [Insert Instructions for net install]
+
+p yalescheme A modern Stata scheme for Yale University - branded data visualizations.
+
