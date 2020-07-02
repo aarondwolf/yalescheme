@@ -6,9 +6,44 @@
 
 The Yale Stata scheme provides a quick set of options for modern-looking graphs from Stata using Yale colors. The scheme is intended for use by the Yale Economic Growth Center's Research Team when designing visualization for presentations and social media.
 
-## Installation
+## Stata Installation
 
-The scheme is not currently ready for installation. When it is, a package file will be uploaded to the Github repository to allow downloads via the *net install* command.
+### Installing via *net install*
+
+The current version is still a work in progress. To install, user can use the net install command to download from the project's Github page:
+
+```
+net install yalescheme, from("https://aarondwolf.github.io/yalescheme")
+```
+
+### Usage
+
+To use, simply specify the scheme at the start of a .do file:
+
+```
+set scheme yale
+```
+
+Or in the process of making a graph:
+
+```stata
+sysuse auto
+twoway  (scatter price mpg if foreign == 0) ///
+		(scatter price mpg if foreign == 1), scheme(yale) 
+```
+
+### Fonts
+
+The *Yale* scheme is intended to be used with Yale official fonts. If you are Yale EGC staff, please contact Vestal McIntyre for access to the proprietary *Mallory* font. Fonts are specified independently of schemes; to set the fonts for the graph window, add the following to the top of any .do file using the Yale scheme:
+
+```stata
+graph set window fontface "Mallory Thin"
+graph set window fontfacemono default
+graph set window fontfacesans "Mallory Thin"
+graph set window fontfaceserif YaleNew
+graph set window fontfacesymbol "Mallory Thin"
+```
+
 
 ## Attribution
 
