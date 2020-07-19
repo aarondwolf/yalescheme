@@ -13,16 +13,16 @@
 	for the colors too be incorporated into its directory.
 
 	Written by:			 Aaron Wolf (aaron.wolf@yale.edu), June 24, 2020
-	Last Modified by:	 Aaron Wolf (aaron.wolf@yale.edu), June 24, 2020
+	Last Modified by:	 Aaron Wolf (aaron.wolf@yale.edu), July 16, 2020
 
 
 *******************************************************************************/
 
 clear
-cd "`c(sysdir_personal)'"
-cap mkdir s
-cap mkdir style
-cd "`c(sysdir_personal)'/style"
+// cd "`c(sysdir_personal)'"
+// cap mkdir s
+// cap mkdir style
+// cd "`c(sysdir_personal)'/style"
 
 * Set colors
 
@@ -31,6 +31,7 @@ local yltblue 		"40 109 192"
 local yvltblue		"99 170 255"
 local ygreen		"95 113 45"
 local yorange		"189 83 25"
+local ypurple		"119 71 152"
 local ygs1			"34 34 34"
 local ygs2			"74 74 74"
 local ygs3 			"151 141 133"
@@ -38,7 +39,7 @@ local ygs4			"221 221 221"
 local ygs5			"249 249 249"
 
 
-local colors yblue yltblue yvltblue ygreen yorange ygs1 ygs2 ygs3 ygs4 ygs5
+local colors yblue yltblue yvltblue ygreen yorange ypurple ygs1 ygs2 ygs3 ygs4 ygs5
 
 
 

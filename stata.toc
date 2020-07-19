@@ -1,7 +1,17 @@
-v 0.1
+v 0.34
 d Created by Aaron Wolf (aaron.wolf@yale.edu)
 
-d [Insert Instructions for net install]
+d 	Installation instructions:
+d	net install yalescheme, from("C:\Users\adw54\Documents\GitHub\yalescheme") replace
+d	
+d	This scheme is intended to be used with official Yale EGC fonts (Mallory and YaleNew).
+d	To set these as default fonts (note: this is permanent), run the following lines:	
+d 	graph set window fontface "Mallory Thin"
+d	graph set window fontfacemono default
+d	graph set window fontfacesans "Mallory Thin"
+d	graph set window fontfaceserif YaleNew
+d	graph set window fontfacesymbol "Mallory Thin"
+
 
 p yalescheme A modern Stata scheme for Yale University - branded data visualizations.
 
