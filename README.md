@@ -8,12 +8,12 @@ The Yale Stata scheme provides a quick set of options for modern-looking graphs 
 
 ## Stata Installation
 
-### Installing via *net install*
+### Installing via *ssc*
 
-The current version is still a work in progress. To install, user can use the net install command to download from the project's Github page:
+The Yale scheme is available for download via ssc:
 
 ```
-net install yalescheme, from("https://aarondwolf.github.io/yalescheme")
+ssc install yalescheme
 ```
 
 ### Usage
