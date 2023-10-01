@@ -1,6 +1,6 @@
 v 1.0.1
 d yalescheme.  A modern Stata scheme for Yale University-branded data visualizations.
-d Created by Aaron Wolf (aaron.wolf@yale.edu)
+d Created by Aaron Wolf (aaron.wolf@u.northwestern.edu)
 d
 d Note: Yale scheme provides the following new colors for
 d use in Stata graphs (see https://yaleidentity.yale.edu./web):

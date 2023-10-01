@@ -69,5 +69,5 @@ documentation for which can be found at https://www.stata-journal.com/article.ht
 
 {title:Authors}
 
-{pstd}Aaron Wolf, Yale University{p_end}
-{pstd}aaron.wolf@yale.edu{p_end}
+{pstd}Aaron Wolf, Northwestern University{p_end}
+{pstd}aaron.wolf@u.northwestern.edu{p_end}
